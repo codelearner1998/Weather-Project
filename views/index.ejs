@@ -1,0 +1,22 @@
+<%- include('components/header'); -%>
+
+<div class="m-4">
+  <h1>What is your City ?</h1>
+</div>
+
+<div class="mx-auto col-lg-6 col-md-8 col-sm-10 col-10 p-3 w-50 p-3">
+  <form class="d-flex" role="search" action="/" method="post" id="myForm">
+    <input
+      class="form-control me-2"
+      type="search"
+      placeholder="Search"
+      aria-label="Search"
+      name="cityName"
+    />
+    <button class="btn btn-primary" type="submit">
+      <i class="fa-solid fa-magnifying-glass"></i>
+    </button>
+  </form>
+</div>
+
+<%- include('components/footer'); -%>

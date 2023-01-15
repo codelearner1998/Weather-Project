@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url("abc.jpg");
+    background-size: 100% 400%;
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+
+  .myform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .myinput {
+    display: relative;
+    top: 20%;
+  }
+
+  h1{
+    color: whitesmoke;
+  }
